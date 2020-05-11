@@ -1,0 +1,10 @@
+package com.app.spring.models.services;
+
+import java.util.List;
+
+import com.app.spring.models.entity.Producto;
+
+public interface IProductoService {
+	public List<Producto> findAll();
+
+}

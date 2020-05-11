@@ -1,0 +1,8 @@
+package com.app.spring.models.services;
+
+import java.util.List;
+import com.app.spring.models.entity.Empleados;
+
+public interface IEmpleadosService {
+	public List<Empleados> findall();
+}

@@ -1,0 +1,5 @@
+package com.app.spring.models.services;
+
+public class CliemtesServiceImpl {
+
+}

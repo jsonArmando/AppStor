@@ -1,0 +1,19 @@
+package com.app.spring.models.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.app.spring.models.dao.IClientesDao;
+import com.app.spring.models.entity.Clientes;
+
+public class CliemtesServiceImpl implements IClientesService {
+	@Autowired
+	private IClientesDao clientesDao;
+	@Override
+	public List<Clientes> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

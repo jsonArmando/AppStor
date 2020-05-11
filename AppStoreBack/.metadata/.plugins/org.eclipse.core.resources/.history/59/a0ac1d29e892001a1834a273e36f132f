@@ -1,0 +1,10 @@
+package com.app.spring.models.services;
+
+import java.util.List;
+
+import com.app.spring.models.entity.Clientes;
+
+public interface IClientesService {
+	public List<Clientes> findAll();
+
+}

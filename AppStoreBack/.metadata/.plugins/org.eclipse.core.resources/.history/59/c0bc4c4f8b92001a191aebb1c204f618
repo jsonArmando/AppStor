@@ -1,0 +1,21 @@
+package com.app.spring.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.app.spring.models.services.IEmpleadosService;
+
+@CrossOrigin(origins = {"http://localhost:4200"})
+@RequestMapping("/app")
+public class EmpleadoRestController {
+	@Autowired
+	private IEmpleadosService empleadoService;
+	
+	@GetMapping
+	public list<Empleados> index(){
+		return null;
+	}
+
+}
